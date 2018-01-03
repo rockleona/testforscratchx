@@ -1,4 +1,5 @@
 (function(ext) {
+    var x = 0
     // Cleanup function when the extension is unloaded
     ext._shutdown = function() {};
 
@@ -9,7 +10,8 @@
     };
 
     ext.cacu = function(number){
-        return number**2
+        x = number ** 2
+        return x
     };
 
     // Block and block menu descriptions

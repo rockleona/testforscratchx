@@ -18,7 +18,7 @@ new(function() {
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['','square of %n','cacu'],
+            ['','square of %n','cacu','2'],
         ]
     };
 

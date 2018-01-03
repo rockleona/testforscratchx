@@ -1,5 +1,6 @@
-(function(ext) {
-    var x = 0
+new(function() {
+    var ext = this;
+    var x = 0;
     // Cleanup function when the extension is unloaded
     ext._shutdown = function() {};
 
